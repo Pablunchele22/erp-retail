@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(psql --version)",
+      "Bash(brew list *)",
+      "Bash(brew install *)",
+      "Bash(npm install *)",
+      "Bash(sed -i '' \"s|from '../auth'|from '../auth.jsx'|g\" /Users/pablosilveira/Desktop/IPS/Claude/ERP/frontend/src/pages/*.jsx)",
+      "Bash(sed -i '' \"s|from './auth'|from './auth.jsx'|g\" /Users/pablosilveira/Desktop/IPS/Claude/ERP/frontend/src/main.jsx /Users/pablosilveira/Desktop/IPS/Claude/ERP/frontend/src/App.jsx)",
+      "mcp__Claude_Preview__preview_start",
+      "mcp__Claude_in_Chrome__navigate",
+      "Bash(gh auth *)",
+      "Bash(git -C /Users/pablosilveira/Desktop/IPS/Claude/ERP status)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
