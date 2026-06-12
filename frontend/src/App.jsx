@@ -7,6 +7,7 @@ import Productos from './pages/Productos';
 import Ventas from './pages/Ventas';
 import Inventario from './pages/Inventario';
 import Compras from './pages/Compras';
+import Usuarios from './pages/Usuarios';
 
 function PrivateRoute({ children }) {
     const { user } = useAuth();
@@ -24,6 +25,7 @@ export default function App() {
                 <Route path="ventas" element={<Ventas />} />
                 <Route path="inventario" element={<Inventario />} />
                 <Route path="compras" element={<Compras />} />
+                <Route path="usuarios" element={<Usuarios />} />
             </Route>
         </Routes>
     );

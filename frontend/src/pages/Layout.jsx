@@ -7,6 +7,7 @@ const links = [
     { to: '/ventas',     label: '🛒 Ventas' },
     { to: '/inventario', label: '🏭 Inventario' },
     { to: '/compras',    label: '📋 Compras' },
+    { to: '/usuarios',   label: '👥 Usuarios' },
 ];
 
 export default function Layout() {
